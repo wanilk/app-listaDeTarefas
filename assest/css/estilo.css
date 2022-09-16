@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+.cabecalho{
+    background: #7740ED;
+    width: 360px;
+    height: 61px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.titulo{
+    color: #F1F1F1;    
+    padding: 20px;
+}
+
+.pontoSino{
+    align-items: flex-end;
+}

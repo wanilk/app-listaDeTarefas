@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'roboto', sans-serif;
+   
 }
 
 .cabecalho{
@@ -16,9 +17,35 @@
 
 .titulo{
     color: #F1F1F1;    
-    padding: 20px;
+    padding: 20px;  
+    font-size: 16px;
+   
 }
 
 .pontoSino{
     align-items: flex-end;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 18px;
+   
+}
+
+.form{
+    margin: 16px;
+}
+
+.label{
+    display: block;
+    color: #000000;
+    font-family: sans-serif;
+    margin-top: 28px;
+}
+
+.input{
+    padding: 10px;
+    margin-top: 08px;
+    width: 328px;
+    border: 1px #7740ED solid;
+    border-radius: 10px;
+    box-sizing: border-box;
 }

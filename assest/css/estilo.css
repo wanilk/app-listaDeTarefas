@@ -75,7 +75,10 @@
     margin-top: 32px;
     width: 328px;   
     border-radius: 10px;
-    box-sizing: border-box;     
+    box-sizing: border-box; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;    
 }
 
 .boxTarefasFazer{
@@ -97,11 +100,40 @@
     margin-top: 8px;
     width: 328px;   
     border-radius: 10px;
-    box-sizing: border-box;     
+    box-sizing: border-box; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;    
 }
 
 .fazerExcluirTarefa{
     font-size: 12px;
-
+    
 }
 
+.barraStatus{
+    margin-top: 36px;
+    display: flex;
+    
+}
+
+.barraStatusFeito{
+    background-color: #FFDB21;
+    border-radius: 10px 0px 0px 10px;
+    width: 189px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    font-size: 12px;
+    
+}
+
+.barraStatusFazendo{
+    background-color: #D9D9D9;
+    border-radius: 0px 10px 10px 0px;
+    width: 139px;
+    height: 32px;
+}

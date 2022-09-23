@@ -29,18 +29,25 @@
        
     </header>
 
+    
     <div>
         
         <form class="form">
             
             <div>
                 <label for="tarefa" class="label" >Tarefa</label>
-                <input type="text" class="input" id="tarefa" placeholder="Ex. : comprar leite" >                
+                <div class="input">
+                <input type="text"  id="tarefa" placeholder="Ex. : comprar leite" >
+                <img src="../app-listaDeTarefas/assest/img/marcadorTexto.png" alt="">
+                </div>                
             </div>
 
             <div>
                 <label for="date" class="label">Data</label>
-                <input type="text" class="input" id="date" placeholder="10/12/2022" >                
+                <div class="input">
+                <input type="text"  id="date" placeholder="10/12/2022" > 
+                <img src="../app-listaDeTarefas/assest/img/calendario.png" alt="">
+                </div>               
             </div>
 
             <div class="botaoAdicionar">
@@ -48,11 +55,13 @@
                    Adicionar                   
                </div>               
             </div>
+        </form>
 
+        <div class="container-01">
             <div class="boxTarefas">
                 <div class="boxTarefasFazer">
                     <div>
-                        <input type="checkbox" id="termos" checked>
+                        <input type="checkbox" id="termos" >
                     </div>
                     <div class="espacoBox">
                         <div class="fazerExcluirTarefa">
@@ -70,10 +79,10 @@
                 </div>
             </div>
 
-            <div class="boxTarefas-01">
+            <div class="boxTarefas">
                 <div class="boxTarefasFazer">
                     <div>
-                        <input type="checkbox" id="termos" checked>
+                        <input type="checkbox" id="termos" >
                     </div>
                     <div class="espacoBox">
                         <div class="fazerExcluirTarefa">
@@ -91,14 +100,14 @@
                 </div>
             </div>
 
-            <div class="boxTarefas-01">
+            <div class="boxTarefas">
                 <div class="boxTarefasFazer">
                     <div>
-                        <input type="checkbox" id="termos" checked>
+                        <input type="checkbox" id="termos" >
                     </div>
                     <div class="espacoBox">
                         <div class="fazerExcluirTarefa">
-                            <h3>Trabalho de matemática</h3>
+                            <h3 class="linhasTracejadas">Trabalho de matemática</h3>
                         </div>
                         <div>
                             <h5>14/08/2022 ás 08:00</h5>
@@ -112,14 +121,14 @@
                 </div>
             </div>
 
-            <div class="boxTarefas-01">
+            <div class="boxTarefas">
                 <div class="boxTarefasFazer">
                     <div>
-                        <input type="checkbox" id="termos" checked>
+                        <input type="checkbox" id="termos" >
                     </div>
                     <div class="espacoBox">
                         <div class="fazerExcluirTarefa">
-                            <h3>Fazer compras</h3>
+                            <h3 class="linhasTracejadas">Fazer compras</h3>
                         </div>
                         <div>
                             <h5>10/08/2022 ás 13:30</h5>
@@ -130,17 +139,20 @@
                     <img src="../app-listaDeTarefas/assest/img/lixeira.png" alt="lixeira">
                 </div>
             </div>
+        
+
             <div class="barraStatus">
                 <div class="barraStatusFeito">
                     <p>2 de 4 tarefas concluidas</p>
                 </div>
                 <div class="barraStatusFazendo">
-                                    
+                                        
                 </div>
             </div>
+        </div>
 
 
-        </form>
+        
 
     </div>
     

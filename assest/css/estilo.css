@@ -50,7 +50,12 @@
     border-radius: 10px;
     box-sizing: border-box; 
     font-size: 12px;  
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.input > input{
+    border: none;
 }
 
 .botaoAdicionar{
@@ -69,16 +74,21 @@
     color: #F1F1F1;
 }
 
+.container-01{
+    margin: 16px;
+    margin-top: 32px;
+}
+
 .boxTarefas{
     background-color: #D9D9D9;
-    padding: 10px;
-    margin-top: 32px;
+    padding: 10px;   
     width: 328px;   
     border-radius: 10px;
     box-sizing: border-box; 
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;    
+    justify-content: space-between;
+    margin-top: 9px;  
 }
 
 .boxTarefasFazer{
@@ -90,11 +100,14 @@
 }
 
 .espacoBox{
-    margin-left: 12px;
-   
+    margin-left: 12px;   
 }
 
-.boxTarefas-01{
+.linhasTracejadas{    
+    text-decoration-line: line-through;
+}
+
+/*.boxTarefas-01{
     background-color: #D9D9D9;
     padding: 10px;
     margin-top: 8px;
@@ -104,7 +117,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;    
-}
+}*/
 
 .fazerExcluirTarefa{
     font-size: 12px;
